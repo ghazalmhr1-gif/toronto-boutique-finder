@@ -22,3 +22,9 @@ Practicing the kind of local business/market discovery and data-enrichment workf
 ## Known limitations
 - Address precision varies. Google's Places data sometimes returns just "Toronto, ON" instead of a full street address.
 - Website enrichment picks the top non-directory search result, so it's a best guess, not guaranteed to be the exact official site.
+
+## Related projects
+This is the second step in a small pipeline of tools:
+1. [research-report-tool](https://github.com/ghazalmhr1-gif/research-report-tool) — topic-to-report research automation
+2. **toronto-boutique-finder** (this repo) — finds and enriches local business leads
+3. [boutique-lead-qualifier](https://github.com/ghazalmhr1-gif/boutique-lead-qualifier) — verifies and scores those leads for outreach readiness
